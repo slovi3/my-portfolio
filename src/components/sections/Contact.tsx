@@ -14,7 +14,7 @@ export default function Contact() {
     {
       label: "GitHub",
       href: siteConfig.links.github,
-      display: siteConfig.links.github.replace("https://", ""),
+      display: "slovi3",
     },
     {
    label: "LinkedIn",

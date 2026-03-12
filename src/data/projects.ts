@@ -13,8 +13,8 @@ export const projects: Project[] = [
     name: "BulkTrack",
     description:
       "Discipline and fitness tracking web app focused on habits, workouts, and progress.",
-    stack: ["React", "Next.js", "Tailwind CSS"],
-    status: "In Progress",
+    stack: ["React", "Next.js", "Tailwind CSS", "Firebase"],
+    status: "Live",
     liveUrl: "https://bulktrack.vercel.app/",
     githubUrl: "https://github.com/slovi3/bulktrack",
     accent: "rgba(234, 179, 8, 0.15)", // amber glow
@@ -32,7 +32,7 @@ export const projects: Project[] = [
   {
     name: "Habit Tracker",
     description:
-      "Simple habit tracking app for building consistency.",
+      "Simple habit tracking app for building consistency and tracking daily progress.",
     stack: ["React", "CSS", "JavaScript"],
     status: "Live",
     liveUrl: "https://slovi3.github.io/habit-tracker/",
@@ -42,18 +42,20 @@ export const projects: Project[] = [
   {
     name: "Password Generator",
     description:
-      "Vanilla JavaScript password generator with strength meter.",
+      "Vanilla JavaScript password generator with strength meter and clean modern UI.",
     stack: ["HTML", "CSS", "JavaScript"],
     status: "Live",
+    liveUrl: "https://slovi3.github.io/password-generator/",
     githubUrl: "https://github.com/slovi3/password-generator",
     accent: "rgba(236, 72, 153, 0.15)", // pink glow
   },
   {
     name: "Movie Search App",
     description:
-      "Movie browsing/search experience with a clean UI.",
+      "Movie browsing and search experience with a clean modern interface.",
     stack: ["React", "API", "CSS"],
     status: "Live",
+    liveUrl: "https://slovi3.github.io/movie-search-app/",
     githubUrl: "https://github.com/slovi3/movie-search-app",
     accent: "rgba(168, 85, 247, 0.15)", // purple glow
   },

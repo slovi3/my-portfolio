@@ -20,6 +20,7 @@ export const siteConfig = {
     "web developer",
     "TypeScript",
     "Tailwind CSS",
+    "personal website",
   ],
 };
 

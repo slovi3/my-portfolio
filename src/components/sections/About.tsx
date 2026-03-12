@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import SectionWrapper from "@/components/SectionWrapper";
+import { siteConfig } from "@/data/config";
 
 export default function About() {
   return (
@@ -26,7 +27,7 @@ export default function About() {
           transition={{ duration: 0.7, delay: 0.2 }}
         >
           <p className="text-[#999] leading-relaxed">
-            I&apos;m <span className="text-white font-medium">Fikret Kaan Karazeytin</span>, a
+            I&apos;m <span className="text-white font-medium">{siteConfig.name}</span>, a
             self-taught software developer who believes in learning by doing. I
             don&apos;t wait until I know everything — I start building, ship fast, and
             improve through iteration.

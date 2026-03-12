@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import SectionWrapper from "@/components/SectionWrapper";
+import { siteConfig } from "@/data/config";
 
 const activityData = [
   [0, 1, 2, 1, 0, 3, 2],
@@ -63,7 +64,7 @@ export default function GitHub() {
               Contributions & open-source work
             </p>
             <a
-              href="https://github.com/fkaanzeytin"
+              href={siteConfig.links.github}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 glow-btn glow-btn-secondary text-sm"

@@ -15,8 +15,8 @@ export const projects: Project[] = [
       "Discipline and fitness tracking web app focused on habits, workouts, and progress.",
     stack: ["React", "Next.js", "Tailwind CSS"],
     status: "In Progress",
-    liveUrl: "https://example-bulktrack.com",
-    githubUrl: "https://github.com/fkaanzeytin/bulktrack",
+    liveUrl: "https://bulktrack.vercel.app/",
+    githubUrl: "https://github.com/slovi3/bulktrack",
     accent: "rgba(234, 179, 8, 0.15)", // amber glow
   },
   {
@@ -25,8 +25,8 @@ export const projects: Project[] = [
       "Productivity timer app with a clean interface for focused work sessions.",
     stack: ["HTML", "CSS", "JavaScript"],
     status: "Live",
-    liveUrl: "https://example-pomodoro.com",
-    githubUrl: "https://github.com/fkaanzeytin/pomodoro-timer",
+    liveUrl: "https://slovi3.github.io/pomodoro-timer/",
+    githubUrl: "https://github.com/slovi3/pomodoro-timer",
     accent: "rgba(59, 130, 246, 0.15)", // blue glow
   },
   {
@@ -35,8 +35,8 @@ export const projects: Project[] = [
       "Simple habit tracking app for building consistency.",
     stack: ["React", "CSS", "JavaScript"],
     status: "Live",
-    liveUrl: "https://example-habittracker.com",
-    githubUrl: "https://github.com/fkaanzeytin/habit-tracker",
+    liveUrl: "https://slovi3.github.io/habit-tracker/",
+    githubUrl: "https://github.com/slovi3/habit-tracker",
     accent: "rgba(34, 197, 94, 0.15)", // green glow
   },
   {
@@ -45,8 +45,7 @@ export const projects: Project[] = [
       "Vanilla JavaScript password generator with strength meter.",
     stack: ["HTML", "CSS", "JavaScript"],
     status: "Live",
-    liveUrl: "https://example-password.com",
-    githubUrl: "https://github.com/fkaanzeytin/password-generator",
+    githubUrl: "https://github.com/slovi3/password-generator",
     accent: "rgba(236, 72, 153, 0.15)", // pink glow
   },
   {
@@ -55,8 +54,7 @@ export const projects: Project[] = [
       "Movie browsing/search experience with a clean UI.",
     stack: ["React", "API", "CSS"],
     status: "Live",
-    liveUrl: "https://example-moviesearch.com",
-    githubUrl: "https://github.com/fkaanzeytin/movie-search-app",
+    githubUrl: "https://github.com/slovi3/movie-search-app",
     accent: "rgba(168, 85, 247, 0.15)", // purple glow
   },
 ];

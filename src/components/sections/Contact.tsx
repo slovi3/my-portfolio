@@ -2,26 +2,26 @@
 
 import { motion } from "framer-motion";
 import SectionWrapper from "@/components/SectionWrapper";
-
-const links = [
-  {
-    label: "Email",
-    href: "mailto:fkarazeytin@gmail.com",
-    display: "fkarazeytin@gmail.com",
-  },
-  {
-    label: "GitHub",
-    href: "https://github.com/fkaanzeytin",
-    display: "github.com/fkaanzeytin",
-  },
-  {
-    label: "LinkedIn",
-    href: "https://linkedin.com/in/fkaanzeytin",
-    display: "linkedin.com/in/fkaanzeytin",
-  },
-];
+import { siteConfig } from "@/data/config";
 
 export default function Contact() {
+  const links = [
+    {
+      label: "Email",
+      href: `mailto:${siteConfig.email}`,
+      display: siteConfig.email,
+    },
+    {
+      label: "GitHub",
+      href: siteConfig.links.github,
+      display: siteConfig.links.github.replace("https://", ""),
+    },
+    {
+      label: "LinkedIn",
+      href: siteConfig.links.linkedin,
+      display: siteConfig.links.linkedin.replace("https://", ""),
+    },
+  ];
   return (
     <SectionWrapper id="contact" className="py-32 px-6">
       <div className="max-w-3xl mx-auto text-center">

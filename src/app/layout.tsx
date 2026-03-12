@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import { siteConfig } from "@/data/config";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -13,23 +13,15 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Fikret Kaan Karazeytin — Software Developer & Builder",
-  description:
-    "A young developer focused on learning fast, building real projects, and shipping modern web experiences. Portfolio showcasing BulkTrack, Habit Tracker, Pomodoro Timer, and more.",
-  keywords: [
-    "software developer",
-    "portfolio",
-    "React",
-    "Next.js",
-    "frontend developer",
-    "web developer",
-  ],
-  authors: [{ name: "Fikret Kaan Karazeytin" }],
+  title: `${siteConfig.name} — ${siteConfig.title}`,
+  description: siteConfig.description,
+  keywords: siteConfig.keywords,
+  authors: [{ name: siteConfig.name }],
   openGraph: {
-    title: "Fikret Kaan Karazeytin — Software Developer & Builder",
-    description:
-      "Building real projects, shipping modern web experiences.",
+    title: `${siteConfig.name} — ${siteConfig.title}`,
+    description: siteConfig.description,
     type: "website",
+    url: siteConfig.url,
   },
 };
 

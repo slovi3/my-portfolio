@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { siteConfig } from "@/data/config";
 
 const navItems = [
   { label: "About", href: "#about" },
@@ -52,7 +53,7 @@ export default function Navbar() {
               </a>
             ))}
             <a
-              href="https://github.com/fkaanzeytin"
+              href={siteConfig.links.github}
               target="_blank"
               rel="noopener noreferrer"
               className="ml-3 glow-btn glow-btn-secondary text-xs !py-2 !px-4"
@@ -107,7 +108,7 @@ export default function Navbar() {
                 </a>
               ))}
               <a
-                href="https://github.com/fkaanzeytin"
+                href={siteConfig.links.github}
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setMobileOpen(false)}

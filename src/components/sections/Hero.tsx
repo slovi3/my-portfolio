@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { siteConfig } from "@/data/config";
 
 const floatingCards = [
   { label: "BulkTrack", x: "8%", y: "20%", delay: 1.2 },
@@ -87,7 +88,7 @@ export default function Hero() {
           transition={{ delay: 1, duration: 0.7 }}
           className="text-lg sm:text-xl font-medium text-[#999] mb-3"
         >
-          Fikret Kaan Karazeytin
+          {siteConfig.name}
         </motion.h1>
 
         {/* Role */}
@@ -97,7 +98,7 @@ export default function Hero() {
           transition={{ delay: 1.1, duration: 0.7 }}
           className="text-sm font-mono text-[#555] mb-6"
         >
-          Software Developer / Builder
+          {siteConfig.title}
         </motion.p>
 
         {/* Description */}
@@ -107,8 +108,7 @@ export default function Hero() {
           transition={{ delay: 1.3, duration: 0.7 }}
           className="text-base text-[#777] max-w-xl mx-auto leading-relaxed mb-10"
         >
-          A young developer focused on learning fast, building real projects,
-          and shipping modern web experiences.
+          {siteConfig.description}
         </motion.p>
 
         {/* CTA Buttons */}
@@ -122,7 +122,7 @@ export default function Hero() {
             View Projects
           </a>
           <a
-            href="https://github.com/fkaanzeytin"
+            href={siteConfig.links.github}
             target="_blank"
             rel="noopener noreferrer"
             className="glow-btn glow-btn-secondary"

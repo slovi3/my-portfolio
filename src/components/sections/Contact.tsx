@@ -17,10 +17,10 @@ export default function Contact() {
       display: siteConfig.links.github.replace("https://", ""),
     },
     {
-      label: "LinkedIn",
-      href: siteConfig.links.linkedin,
-      display: siteConfig.links.linkedin.replace("https://", ""),
-    },
+   label: "LinkedIn",
+   href: siteConfig.links.linkedin,
+   display: "Fikret Kaan Karazeytin",
+  },
   ];
   return (
     <SectionWrapper id="contact" className="py-32 px-6">
